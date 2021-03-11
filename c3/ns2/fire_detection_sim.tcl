@@ -32,6 +32,7 @@ proc create_society_topology {} {
   set cc_alarm_udp [new Agent/UDP]
   $cc_alarm_udp set dst_addr_ $alarm_receivers
   $cc_alarm_udp set dst_port_ 0
+  $cc_alarm_udp set interval_ 0.30
   $cc_alarm_udp set fid_ $cc_fid
 
   $ns attach-agent $cc_node $cc_alarm_udp
@@ -137,11 +138,11 @@ proc create_room_topology {lc_node lc_sink index} {
   $sensor_data set interval_ 0.30
   $sensor_data attach-agent $udp
   
-  set gap_btw_sensors [expr {0.1 +[expr {double($index)/10}]}]
+  set gap_btw_sensors [expr {0.1 + [expr {double($index)/10}]}]
   
   $ns at $gap_btw_sensors "$sensor_data start"
   $ns at 10.0 "$sensor_data stop"
-  $ns at 10.01 "$node leave-group $alarm_sink $alarm_receivers"
+  $ns at 11.0 "$node leave-group $alarm_sink $alarm_receivers"
 }
 
 # Simlulation wide configurations
@@ -159,7 +160,7 @@ proc configure_simulation {} {
   $ns color $cc_fid red
 
   $ns set-animation-rate 5ms
-  $ns at 10.2 "finish"
+  $ns at 11 "finish"
 }
 
 proc finish {} {
