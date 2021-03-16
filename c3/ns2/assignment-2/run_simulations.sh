@@ -1,6 +1,7 @@
 #! /bin/bash
 
-for siml in 1 2 3 4 5
+#for siml in 1 2 3 4 5
+for siml in 1
 do
   printf "\nRunning simulation $siml..."
    
@@ -8,10 +9,12 @@ do
   for proto in "AODV"
   do
     printf "\n  with proto->$proto"
-    for rate in "2" "4" "8"
+    #for rate in "2" "4" "8"
+    for rate in "2"
     do
       printf "\n    with rate->$rate, pause->"
-      for pause in "0" "25" "50"
+      #for pause in "0" "25" "50"
+      for pause in "25"
       do
         printf "$pause/"
         
