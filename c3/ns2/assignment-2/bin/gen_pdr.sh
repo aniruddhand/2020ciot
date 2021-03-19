@@ -27,10 +27,9 @@ do
       
       pdr_out=${pdr_out}$'\r\n'
     done
-    pdr_out=${pdr_out}$'\r\n'
   done
 
-  pdr_out="${pdr_out}xx,Average,"$(bc -l <<<"$pdr_proto_avg/45")
+  pdr_out="${pdr_out}xx,Average,"$(bc -l <<<"$pdr_proto_avg/45")",,"
   
   echo $pdr_out > ./${proto}-pdr-data.csv
   printf "\n"
