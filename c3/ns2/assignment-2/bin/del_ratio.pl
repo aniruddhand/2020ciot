@@ -1,4 +1,4 @@
-$line = <STDIN>;	
+$line = <STDIN>;
 $count = 0;
 $count1 = 0;		
 			

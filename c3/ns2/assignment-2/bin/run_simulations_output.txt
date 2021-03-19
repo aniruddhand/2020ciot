@@ -1,0 +1,240 @@
+======================================================================================
+ubuntu@ubuntu2010:~/Workspace/2020ciot/c3/ns2/assignment-2$ ./bin/run_simulations.sh
+
+Running simulations for AODV...
+  simulation 1
+  ------------
+    with rate->2.0, pause->0/25/50/
+    with rate->4.0, pause->0/25/50/
+    with rate->8.0, pause->0/25/50/
+
+  simulation 2
+  ------------
+    with rate->2.0, pause->0/25/50/
+    with rate->4.0, pause->0/25/50/
+    with rate->8.0, pause->0/25/50/
+
+  simulation 3
+  ------------
+    with rate->2.0, pause->0/25/50/
+    with rate->4.0, pause->0/25/50/
+    with rate->8.0, pause->0/25/50/
+
+  simulation 4
+  ------------
+    with rate->2.0, pause->0/25/50/
+    with rate->4.0, pause->0/25/50/
+    with rate->8.0, pause->0/25/50/
+
+  simulation 5
+  ------------
+    with rate->2.0, pause->0/25/50/
+    with rate->4.0, pause->0/25/50/
+    with rate->8.0, pause->0/25/50/
+
+Running simulations for DSDV...
+  simulation 1
+  ------------
+    with rate->2.0, pause->0/25/50/
+    with rate->4.0, pause->0/25/50/
+    with rate->8.0, pause->0/25/50/
+
+  simulation 2
+  ------------
+    with rate->2.0, pause->0/25/50/
+    with rate->4.0, pause->0/25/50/
+    with rate->8.0, pause->0/25/50/
+
+  simulation 3
+  ------------
+    with rate->2.0, pause->0/25/50/
+    with rate->4.0, pause->0/25/50/
+    with rate->8.0, pause->0/25/50/
+
+  simulation 4
+  ------------
+    with rate->2.0, pause->0/25/50/
+    with rate->4.0, pause->0/25/50/
+    with rate->8.0, pause->0/25/50/
+
+  simulation 5
+  ------------
+    with rate->2.0, pause->0/25/50/
+    with rate->4.0, pause->0/25/50/
+    with rate->8.0, pause->0/25/50/
+
+Running simulations for DSR...
+  simulation 1
+  ------------
+    with rate->2.0, pause->0/25/50/
+    with rate->4.0, pause->0/25/50/
+    with rate->8.0, pause->0/25/50/
+
+  simulation 2
+  ------------
+    with rate->2.0, pause->0/25/50/
+    with rate->4.0, pause->0/25/50/
+    with rate->8.0, pause->0/25/50/
+
+  simulation 3
+  ------------
+    with rate->2.0, pause->0/25/50/
+    with rate->4.0, pause->0/25/50/
+    with rate->8.0, pause->0/25/50/
+
+  simulation 4
+  ------------
+    with rate->2.0, pause->0/25/50/
+    with rate->4.0, pause->0/25/50/
+    with rate->8.0, pause->0/25/50/
+
+  simulation 5
+  ------------
+    with rate->2.0, pause->0/25/50/
+    with rate->4.0, pause->0/25/50/
+    with rate->8.0, pause->0/25/50/
+
+Done!
+
+======================================================================================
+
+ubuntu@ubuntu2010:~/Workspace/2020ciot/c3/ns2/assignment-2$ du -hc sim-*/out/*.tr
+
+9.3M	sim-1/out/AODV-1-2.0-0-out.tr
+12M	sim-1/out/AODV-1-2.0-25-out.tr
+12M	sim-1/out/AODV-1-2.0-50-out.tr
+22M	sim-1/out/AODV-1-4.0-0-out.tr
+30M	sim-1/out/AODV-1-4.0-25-out.tr
+33M	sim-1/out/AODV-1-4.0-50-out.tr
+35M	sim-1/out/AODV-1-8.0-0-out.tr
+44M	sim-1/out/AODV-1-8.0-25-out.tr
+45M	sim-1/out/AODV-1-8.0-50-out.tr
+7.8M	sim-1/out/DSDV-1-2.0-0-out.tr
+8.2M	sim-1/out/DSDV-1-2.0-25-out.tr
+9.0M	sim-1/out/DSDV-1-2.0-50-out.tr
+16M	sim-1/out/DSDV-1-4.0-0-out.tr
+16M	sim-1/out/DSDV-1-4.0-25-out.tr
+17M	sim-1/out/DSDV-1-4.0-50-out.tr
+26M	sim-1/out/DSDV-1-8.0-0-out.tr
+26M	sim-1/out/DSDV-1-8.0-25-out.tr
+29M	sim-1/out/DSDV-1-8.0-50-out.tr
+11M	sim-1/out/DSR-1-2.0-0-out.tr
+12M	sim-1/out/DSR-1-2.0-25-out.tr
+12M	sim-1/out/DSR-1-2.0-50-out.tr
+21M	sim-1/out/DSR-1-4.0-0-out.tr
+34M	sim-1/out/DSR-1-4.0-25-out.tr
+35M	sim-1/out/DSR-1-4.0-50-out.tr
+46M	sim-1/out/DSR-1-8.0-0-out.tr
+49M	sim-1/out/DSR-1-8.0-25-out.tr
+57M	sim-1/out/DSR-1-8.0-50-out.tr
+11M	sim-2/out/AODV-2-2.0-0-out.tr
+11M	sim-2/out/AODV-2-2.0-25-out.tr
+9.5M	sim-2/out/AODV-2-2.0-50-out.tr
+17M	sim-2/out/AODV-2-4.0-0-out.tr
+33M	sim-2/out/AODV-2-4.0-25-out.tr
+19M	sim-2/out/AODV-2-4.0-50-out.tr
+27M	sim-2/out/AODV-2-8.0-0-out.tr
+38M	sim-2/out/AODV-2-8.0-25-out.tr
+35M	sim-2/out/AODV-2-8.0-50-out.tr
+5.7M	sim-2/out/DSDV-2-2.0-0-out.tr
+8.4M	sim-2/out/DSDV-2-2.0-25-out.tr
+6.5M	sim-2/out/DSDV-2-2.0-50-out.tr
+6.7M	sim-2/out/DSDV-2-4.0-0-out.tr
+4.2M	sim-2/out/DSDV-2-4.0-25-out.tr
+12M	sim-2/out/DSDV-2-4.0-50-out.tr
+20M	sim-2/out/DSDV-2-8.0-0-out.tr
+24M	sim-2/out/DSDV-2-8.0-25-out.tr
+14M	sim-2/out/DSDV-2-8.0-50-out.tr
+9.1M	sim-2/out/DSR-2-2.0-0-out.tr
+11M	sim-2/out/DSR-2-2.0-25-out.tr
+9.4M	sim-2/out/DSR-2-2.0-50-out.tr
+19M	sim-2/out/DSR-2-4.0-0-out.tr
+26M	sim-2/out/DSR-2-4.0-25-out.tr
+18M	sim-2/out/DSR-2-4.0-50-out.tr
+33M	sim-2/out/DSR-2-8.0-0-out.tr
+41M	sim-2/out/DSR-2-8.0-25-out.tr
+36M	sim-2/out/DSR-2-8.0-50-out.tr
+8.5M	sim-3/out/AODV-3-2.0-0-out.tr
+13M	sim-3/out/AODV-3-2.0-25-out.tr
+7.7M	sim-3/out/AODV-3-2.0-50-out.tr
+18M	sim-3/out/AODV-3-4.0-0-out.tr
+45M	sim-3/out/AODV-3-4.0-25-out.tr
+20M	sim-3/out/AODV-3-4.0-50-out.tr
+41M	sim-3/out/AODV-3-8.0-0-out.tr
+58M	sim-3/out/AODV-3-8.0-25-out.tr
+64M	sim-3/out/AODV-3-8.0-50-out.tr
+7.2M	sim-3/out/DSDV-3-2.0-0-out.tr
+8.6M	sim-3/out/DSDV-3-2.0-25-out.tr
+7.0M	sim-3/out/DSDV-3-2.0-50-out.tr
+14M	sim-3/out/DSDV-3-4.0-0-out.tr
+16M	sim-3/out/DSDV-3-4.0-25-out.tr
+14M	sim-3/out/DSDV-3-4.0-50-out.tr
+24M	sim-3/out/DSDV-3-8.0-0-out.tr
+26M	sim-3/out/DSDV-3-8.0-25-out.tr
+3.9M	sim-3/out/DSDV-3-8.0-50-out.tr
+8.8M	sim-3/out/DSR-3-2.0-0-out.tr
+12M	sim-3/out/DSR-3-2.0-25-out.tr
+9.7M	sim-3/out/DSR-3-2.0-50-out.tr
+18M	sim-3/out/DSR-3-4.0-0-out.tr
+37M	sim-3/out/DSR-3-4.0-25-out.tr
+19M	sim-3/out/DSR-3-4.0-50-out.tr
+38M	sim-3/out/DSR-3-8.0-0-out.tr
+54M	sim-3/out/DSR-3-8.0-25-out.tr
+50M	sim-3/out/DSR-3-8.0-50-out.tr
+10M	sim-4/out/AODV-4-2.0-0-out.tr
+11M	sim-4/out/AODV-4-2.0-25-out.tr
+10M	sim-4/out/AODV-4-2.0-50-out.tr
+23M	sim-4/out/AODV-4-4.0-0-out.tr
+20M	sim-4/out/AODV-4-4.0-25-out.tr
+29M	sim-4/out/AODV-4-4.0-50-out.tr
+49M	sim-4/out/AODV-4-8.0-0-out.tr
+40M	sim-4/out/AODV-4-8.0-25-out.tr
+40M	sim-4/out/AODV-4-8.0-50-out.tr
+7.8M	sim-4/out/DSDV-4-2.0-0-out.tr
+2.1M	sim-4/out/DSDV-4-2.0-25-out.tr
+8.1M	sim-4/out/DSDV-4-2.0-50-out.tr
+15M	sim-4/out/DSDV-4-4.0-0-out.tr
+3.5M	sim-4/out/DSDV-4-4.0-25-out.tr
+16M	sim-4/out/DSDV-4-4.0-50-out.tr
+26M	sim-4/out/DSDV-4-8.0-0-out.tr
+6.9M	sim-4/out/DSDV-4-8.0-25-out.tr
+16M	sim-4/out/DSDV-4-8.0-50-out.tr
+11M	sim-4/out/DSR-4-2.0-0-out.tr
+11M	sim-4/out/DSR-4-2.0-25-out.tr
+11M	sim-4/out/DSR-4-2.0-50-out.tr
+22M	sim-4/out/DSR-4-4.0-0-out.tr
+20M	sim-4/out/DSR-4-4.0-25-out.tr
+30M	sim-4/out/DSR-4-4.0-50-out.tr
+45M	sim-4/out/DSR-4-8.0-0-out.tr
+45M	sim-4/out/DSR-4-8.0-25-out.tr
+46M	sim-4/out/DSR-4-8.0-50-out.tr
+12M	sim-5/out/AODV-5-2.0-0-out.tr
+13M	sim-5/out/AODV-5-2.0-25-out.tr
+12M	sim-5/out/AODV-5-2.0-50-out.tr
+18M	sim-5/out/AODV-5-4.0-0-out.tr
+40M	sim-5/out/AODV-5-4.0-25-out.tr
+20M	sim-5/out/AODV-5-4.0-50-out.tr
+34M	sim-5/out/AODV-5-8.0-0-out.tr
+54M	sim-5/out/AODV-5-8.0-25-out.tr
+35M	sim-5/out/AODV-5-8.0-50-out.tr
+6.9M	sim-5/out/DSDV-5-2.0-0-out.tr
+8.9M	sim-5/out/DSDV-5-2.0-25-out.tr
+6.9M	sim-5/out/DSDV-5-2.0-50-out.tr
+6.1M	sim-5/out/DSDV-5-4.0-0-out.tr
+17M	sim-5/out/DSDV-5-4.0-25-out.tr
+8.6M	sim-5/out/DSDV-5-4.0-50-out.tr
+7.4M	sim-5/out/DSDV-5-8.0-0-out.tr
+28M	sim-5/out/DSDV-5-8.0-25-out.tr
+25M	sim-5/out/DSDV-5-8.0-50-out.tr
+11M	sim-5/out/DSR-5-2.0-0-out.tr
+12M	sim-5/out/DSR-5-2.0-25-out.tr
+11M	sim-5/out/DSR-5-2.0-50-out.tr
+21M	sim-5/out/DSR-5-4.0-0-out.tr
+37M	sim-5/out/DSR-5-4.0-25-out.tr
+20M	sim-5/out/DSR-5-4.0-50-out.tr
+39M	sim-5/out/DSR-5-8.0-0-out.tr
+56M	sim-5/out/DSR-5-8.0-25-out.tr
+37M	sim-5/out/DSR-5-8.0-50-out.tr
+
+2.9G	total
+
