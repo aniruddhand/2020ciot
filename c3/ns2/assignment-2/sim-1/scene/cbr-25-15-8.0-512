@@ -1,5 +1,5 @@
 #
-# nodes: 25, max conn: 15, send rate: 0.25, seed: 1.0
+# nodes: 24, max conn: 15, send rate: 0.125, seed: 1.0
 #
 #
 # 1 connecting to 2 at time 2.5568388786897245
@@ -10,7 +10,7 @@ set null_(0) [new Agent/Null]
 $ns_ attach-agent $node_(2) $null_(0)
 set cbr_(0) [new Application/Traffic/CBR]
 $cbr_(0) set packetSize_ 512
-$cbr_(0) set interval_ 0.25
+$cbr_(0) set interval_ 0.125
 $cbr_(0) set random_ 1
 $cbr_(0) set maxpkts_ 10000
 $cbr_(0) attach-agent $udp_(0)
@@ -25,7 +25,7 @@ set null_(1) [new Agent/Null]
 $ns_ attach-agent $node_(5) $null_(1)
 set cbr_(1) [new Application/Traffic/CBR]
 $cbr_(1) set packetSize_ 512
-$cbr_(1) set interval_ 0.25
+$cbr_(1) set interval_ 0.125
 $cbr_(1) set random_ 1
 $cbr_(1) set maxpkts_ 10000
 $cbr_(1) attach-agent $udp_(1)
@@ -40,7 +40,7 @@ set null_(2) [new Agent/Null]
 $ns_ attach-agent $node_(6) $null_(2)
 set cbr_(2) [new Application/Traffic/CBR]
 $cbr_(2) set packetSize_ 512
-$cbr_(2) set interval_ 0.25
+$cbr_(2) set interval_ 0.125
 $cbr_(2) set random_ 1
 $cbr_(2) set maxpkts_ 10000
 $cbr_(2) attach-agent $udp_(2)
@@ -55,7 +55,7 @@ set null_(3) [new Agent/Null]
 $ns_ attach-agent $node_(7) $null_(3)
 set cbr_(3) [new Application/Traffic/CBR]
 $cbr_(3) set packetSize_ 512
-$cbr_(3) set interval_ 0.25
+$cbr_(3) set interval_ 0.125
 $cbr_(3) set random_ 1
 $cbr_(3) set maxpkts_ 10000
 $cbr_(3) attach-agent $udp_(3)
@@ -70,7 +70,7 @@ set null_(4) [new Agent/Null]
 $ns_ attach-agent $node_(8) $null_(4)
 set cbr_(4) [new Application/Traffic/CBR]
 $cbr_(4) set packetSize_ 512
-$cbr_(4) set interval_ 0.25
+$cbr_(4) set interval_ 0.125
 $cbr_(4) set random_ 1
 $cbr_(4) set maxpkts_ 10000
 $cbr_(4) attach-agent $udp_(4)
@@ -85,7 +85,7 @@ set null_(5) [new Agent/Null]
 $ns_ attach-agent $node_(9) $null_(5)
 set cbr_(5) [new Application/Traffic/CBR]
 $cbr_(5) set packetSize_ 512
-$cbr_(5) set interval_ 0.25
+$cbr_(5) set interval_ 0.125
 $cbr_(5) set random_ 1
 $cbr_(5) set maxpkts_ 10000
 $cbr_(5) attach-agent $udp_(5)
@@ -100,7 +100,7 @@ set null_(6) [new Agent/Null]
 $ns_ attach-agent $node_(9) $null_(6)
 set cbr_(6) [new Application/Traffic/CBR]
 $cbr_(6) set packetSize_ 512
-$cbr_(6) set interval_ 0.25
+$cbr_(6) set interval_ 0.125
 $cbr_(6) set random_ 1
 $cbr_(6) set maxpkts_ 10000
 $cbr_(6) attach-agent $udp_(6)
@@ -115,7 +115,7 @@ set null_(7) [new Agent/Null]
 $ns_ attach-agent $node_(10) $null_(7)
 set cbr_(7) [new Application/Traffic/CBR]
 $cbr_(7) set packetSize_ 512
-$cbr_(7) set interval_ 0.25
+$cbr_(7) set interval_ 0.125
 $cbr_(7) set random_ 1
 $cbr_(7) set maxpkts_ 10000
 $cbr_(7) attach-agent $udp_(7)
@@ -130,7 +130,7 @@ set null_(8) [new Agent/Null]
 $ns_ attach-agent $node_(11) $null_(8)
 set cbr_(8) [new Application/Traffic/CBR]
 $cbr_(8) set packetSize_ 512
-$cbr_(8) set interval_ 0.25
+$cbr_(8) set interval_ 0.125
 $cbr_(8) set random_ 1
 $cbr_(8) set maxpkts_ 10000
 $cbr_(8) attach-agent $udp_(8)
@@ -145,7 +145,7 @@ set null_(9) [new Agent/Null]
 $ns_ attach-agent $node_(12) $null_(9)
 set cbr_(9) [new Application/Traffic/CBR]
 $cbr_(9) set packetSize_ 512
-$cbr_(9) set interval_ 0.25
+$cbr_(9) set interval_ 0.125
 $cbr_(9) set random_ 1
 $cbr_(9) set maxpkts_ 10000
 $cbr_(9) attach-agent $udp_(9)
@@ -160,7 +160,7 @@ set null_(10) [new Agent/Null]
 $ns_ attach-agent $node_(13) $null_(10)
 set cbr_(10) [new Application/Traffic/CBR]
 $cbr_(10) set packetSize_ 512
-$cbr_(10) set interval_ 0.25
+$cbr_(10) set interval_ 0.125
 $cbr_(10) set random_ 1
 $cbr_(10) set maxpkts_ 10000
 $cbr_(10) attach-agent $udp_(10)
@@ -175,7 +175,7 @@ set null_(11) [new Agent/Null]
 $ns_ attach-agent $node_(14) $null_(11)
 set cbr_(11) [new Application/Traffic/CBR]
 $cbr_(11) set packetSize_ 512
-$cbr_(11) set interval_ 0.25
+$cbr_(11) set interval_ 0.125
 $cbr_(11) set random_ 1
 $cbr_(11) set maxpkts_ 10000
 $cbr_(11) attach-agent $udp_(11)
@@ -190,7 +190,7 @@ set null_(12) [new Agent/Null]
 $ns_ attach-agent $node_(15) $null_(12)
 set cbr_(12) [new Application/Traffic/CBR]
 $cbr_(12) set packetSize_ 512
-$cbr_(12) set interval_ 0.25
+$cbr_(12) set interval_ 0.125
 $cbr_(12) set random_ 1
 $cbr_(12) set maxpkts_ 10000
 $cbr_(12) attach-agent $udp_(12)
@@ -205,7 +205,7 @@ set null_(13) [new Agent/Null]
 $ns_ attach-agent $node_(16) $null_(13)
 set cbr_(13) [new Application/Traffic/CBR]
 $cbr_(13) set packetSize_ 512
-$cbr_(13) set interval_ 0.25
+$cbr_(13) set interval_ 0.125
 $cbr_(13) set random_ 1
 $cbr_(13) set maxpkts_ 10000
 $cbr_(13) attach-agent $udp_(13)
@@ -220,7 +220,7 @@ set null_(14) [new Agent/Null]
 $ns_ attach-agent $node_(17) $null_(14)
 set cbr_(14) [new Application/Traffic/CBR]
 $cbr_(14) set packetSize_ 512
-$cbr_(14) set interval_ 0.25
+$cbr_(14) set interval_ 0.125
 $cbr_(14) set random_ 1
 $cbr_(14) set maxpkts_ 10000
 $cbr_(14) attach-agent $udp_(14)

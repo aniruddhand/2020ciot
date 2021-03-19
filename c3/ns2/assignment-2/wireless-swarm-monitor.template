@@ -7,7 +7,7 @@ set val(x)            800                      ;# X dimension of the topography
 set val(y)            800                      ;# Y dimension of the topography
 set val(seed)         1.0
 set val(ll)           LL                       ;# Link layer type
-set val(ifq)          Queue/DropTail/PriQueue  ;# Interface queue type
+set val(ifq)          __QTYPE__  ;# Interface queue type
 set val(ifqlen)       50                       ;# max packet in ifq
 set val(netif)        Phy/WirelessPhy          ;# network interface type
 set val(mac)          Mac/802_11               ;# MAC type
